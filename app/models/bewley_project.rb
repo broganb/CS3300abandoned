@@ -1,0 +1,2 @@
+class BewleyProject < ApplicationRecord
+end

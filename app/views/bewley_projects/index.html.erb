@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Bewley projects</h1>
+
+<div id="bewley_projects">
+  <% @bewley_projects.each do |bewley_project| %>
+    <%= render bewley_project %>
+    <p>
+      <%= link_to "Show this bewley project", bewley_project %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New bewley project", new_bewley_project_path %>

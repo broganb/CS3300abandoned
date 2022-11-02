@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @bewley_project %>
+
+<div>
+  <%= link_to "Edit this bewley project", edit_bewley_project_path(@bewley_project) %> |
+  <%= link_to "Back to bewley projects", bewley_projects_path %>
+
+  <%= button_to "Destroy this bewley project", @bewley_project, method: :delete %>
+</div>
